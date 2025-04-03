@@ -138,7 +138,7 @@ $('.reviews__slider').slick({
     slidesToShow: 2,
     prevArrow: $('.reviews__slider__prev'),
     nextArrow: $('.reviews__slider__next'),
-    variableHeight: true,
+    variableHeight: false,
     dots: true,
     appendDots: $('.reviews__slider-navigation__pagination'),
     responsive: [
