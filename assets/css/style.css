@@ -1468,6 +1468,7 @@ header {
 .reviews__main {
     margin-top: 3.75rem;
     display: flex;
+    align-items: start;
     gap: 0.875rem;
 }
 .reviews__left {
