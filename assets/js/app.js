@@ -155,3 +155,27 @@ $('.reviews__slider').slick({
         }
     ]
 });
+
+
+$('.about-team__slider').slick({
+    vertical: false,
+    verticalSwiping: false,
+    slidesToShow: 3,
+    variableHeight: false,
+    prevArrow: $('.about-team__slider-prev'),
+    nextArrow: $('.about-team__slider-next'),
+    dots: true,
+    appendDots: $('.about-team__slider-pagination'),
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                variableWidth: true,
+                adaptiveHeight: false,
+                dots: false,
+            }
+        }
+    ]
+});

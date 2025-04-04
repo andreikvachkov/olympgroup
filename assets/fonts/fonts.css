@@ -1,11 +1,9 @@
 @font-face {
 	font-family: 'Phonk Sans';
-	src: url('phonksans-light.eot'); /* IE 9 Compatibility Mode */
-	src: url('phonksans-light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('phonksans-light.woff2') format('woff2'), /* Super Modern Browsers */
-		url('phonksans-light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('phonksans-light.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('phonksans-light.svg#phonksans-light') format('svg'); /* Chrome < 4, Legacy iOS */
+	src: url('phonksans-light.eot');
+	src: 
+		url('phonksans-light.woff2') format('woff2'),
+		url('phonksans-light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
